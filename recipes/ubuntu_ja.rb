@@ -30,7 +30,7 @@ end
 # Run apt-get update
 execute 'apt-get-update' do
   command 'apt-get update'
-  ignore_failure false
+  ignore_failure true
 end
 
 # Run apt-get upgrade
