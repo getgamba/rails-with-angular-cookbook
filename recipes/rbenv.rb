@@ -29,7 +29,8 @@ when 'ubuntu', 'debian'
     'autoconf',
     'libncurses5-dev',
     'libmysql-ruby',
-    'libmysqlclient-dev'
+    'libmysqlclient-dev',
+    'libmagickwand-dev'
   ]
   packages.each do |pkg|
     package pkg do
