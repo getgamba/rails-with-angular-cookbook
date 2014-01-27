@@ -27,7 +27,9 @@ when 'ubuntu', 'debian'
     'libxml2-dev',
     'libxslt1-dev',
     'autoconf',
-    'libncurses5-dev'
+    'libncurses5-dev',
+    'libmysql-ruby',
+    'libmysqlclient-dev'
   ]
   packages.each do |pkg|
     package pkg do
