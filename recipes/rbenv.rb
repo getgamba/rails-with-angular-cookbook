@@ -28,7 +28,6 @@ when 'ubuntu', 'debian'
     'libxslt1-dev',
     'autoconf',
     'libncurses5-dev',
-    'libmysql-ruby',
     'libmysqlclient-dev',
     'libmagickwand-dev'
   ]
