@@ -3,7 +3,7 @@
 
 Vagrant.configure("2") do |config|
   config.vm.hostname = "rails-cookbook"
-  config.vm.box = "hirotaka/ubuntu-utopic-ja"
+  config.vm.box = "gamba/ubuntu-utopic-ja"
   config.vm.network :private_network, ip: "192.168.33.11"
   config.vm.provider :virtualbox do |vb|
     # Don't boot with headless mode

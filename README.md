@@ -1,13 +1,12 @@
 # rails-cookbook cookbook
 
-# Requirements
+Berkshelfで必要なCookbookを取得してVagrantを立ち上げます。
 
-# Usage
-
-# Attributes
-
-# Recipes
+```
+$ berks vendor
+$ vagrant up
+```
 
 # Author
 
-Author:: YOUR_NAME (<YOUR_EMAIL>)
+Author:: Hirotaka Mizutani (<hirotaka@mizutani.to>)
