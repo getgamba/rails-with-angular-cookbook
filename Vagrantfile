@@ -24,7 +24,7 @@ Vagrant.configure("2") do |config|
     }
 
     chef.run_list = [
-      "recipe[rails-with-anglar::default]"
+      "recipe[rails-with-angular::default]"
     ]
   end
 end

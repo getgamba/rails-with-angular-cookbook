@@ -17,6 +17,6 @@ include_recipe 'mysql::server'
 include_recipe 'zsh'
 include_recipe 'redis::install'
 include_recipe 'redis::server'
-include_recipe 'rails-with-anglar::rbenv'
-#include_recipe 'protractor-selenium-server::services'
+include_recipe 'rails-with-angular::rbenv'
+include_recipe 'protractor-selenium-server::services'
 
