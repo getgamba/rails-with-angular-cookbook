@@ -1,10 +1,10 @@
-name             'rails'
+name             'rails-with-angular'
 maintainer       'Hirotaka Mizutani'
 maintainer_email 'hirotaka@mizutani.to'
 license          'All rights reserved'
-description      'Installs/Configures rails-cookbook'
+description      'Installs/Configures rails with angular cookbook'
 long_description IO.read(File.join(File.dirname(__FILE__), 'README.md'))
-version          '0.1.3'
+version          '0.1.0'
 
 depends 'git'
 depends 'apt'
@@ -15,3 +15,4 @@ depends 'zsh'
 depends 'rbenv'
 depends 'redis'
 depends 'ubuntu-ja'
+depends 'protractor-selenium-server'

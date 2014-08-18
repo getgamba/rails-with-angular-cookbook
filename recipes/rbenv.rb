@@ -1,9 +1,9 @@
 # -*- coding: utf-8 -*-
 #
-# Cookbook Name:: rails
+# Cookbook Name:: rails-with-angular
 # Recipe:: rbenv
 #
-# Copyright (C) 2013 Hirotaka Mizutani
+# Copyright (C) 2014 Hirotaka Mizutani
 # 
 # All rights reserved - Do Not Redistribute
 #
@@ -40,10 +40,10 @@ end
 
 include_recipe "rbenv::default"
 include_recipe "rbenv::ruby_build"
-rbenv_ruby "1.9.3-p484" do
+rbenv_ruby "2.1.2" do
   global true
 end
 
 rbenv_gem "bundler" do
-  ruby_version "1.9.3-p484"
+  ruby_version "2.1.2"
 end

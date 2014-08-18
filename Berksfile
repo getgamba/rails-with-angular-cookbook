@@ -11,3 +11,4 @@ cookbook 'mysql'
 cookbook 'zsh'
 cookbook 'redis', github: "miah/chef-redis"
 cookbook 'ubuntu-ja', github: "getgamba/ubuntu-ja-cookbook"
+# cookbook 'protractor-selenium-server', github: "exratione/protractor-selenium-server-cookbook", ref: "v0.0.5"

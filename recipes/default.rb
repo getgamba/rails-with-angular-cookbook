@@ -1,5 +1,5 @@
 #
-# Cookbook Name:: rails
+# Cookbook Name:: rails-with-angular
 # Recipe:: default
 #
 # Copyright (C) 2014 Hirotaka Mizutani
@@ -17,5 +17,6 @@ include_recipe 'mysql::server'
 include_recipe 'zsh'
 include_recipe 'redis::install'
 include_recipe 'redis::server'
-include_recipe 'rails::rbenv'
+include_recipe 'rails-with-anglar::rbenv'
+#include_recipe 'protractor-selenium-server::services'
 
