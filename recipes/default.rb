@@ -20,6 +20,5 @@ include_recipe 'redis::server'
 include_recipe 'rails-with-angular::rbenv'
 include_recipe 'build-essential'
 include_recipe 'curl'
-include_recipe 'n-and-nodejs'
-include_recipe 'protractor-selenium-server::services'
+include_recipe 'rails-with-angular::protractor-selenium-server'
 
