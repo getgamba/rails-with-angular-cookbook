@@ -8,6 +8,7 @@ cookbook 'ruby_build'
 cookbook 'rbenv'
 cookbook 'imagemagick'
 cookbook 'mysql'
+cookbook 'postgresql'
 cookbook 'zsh'
 cookbook 'redis', github: "miah/chef-redis"
 cookbook 'ubuntu-ja', github: "getgamba/ubuntu-ja-cookbook"
