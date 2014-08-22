@@ -47,3 +47,7 @@ end
 rbenv_gem "bundler" do
   ruby_version "2.1.2"
 end
+
+rbenv_gem "compass" do
+  ruby_version "2.1.2"
+end

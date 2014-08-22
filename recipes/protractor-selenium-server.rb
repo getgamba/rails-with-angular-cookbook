@@ -22,3 +22,14 @@ execute "start-selenium-standalone" do
   command "/etc/init.d/selenium-standalone start"
   action :run
 end
+
+execute "start-selenium-standalone" do
+  command "/etc/init.d/selenium-standalone start"
+  action :run
+end
+
+execute "npm install" do
+  user "root"
+  packages = ["generator-angular", "yo", "grunt-cli", "bower"]
+  command "npm install -g #{packages.join(' ')}"
+end
